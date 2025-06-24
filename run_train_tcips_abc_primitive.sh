@@ -1,0 +1,1 @@
+python train_tcips_abc_primitive.py

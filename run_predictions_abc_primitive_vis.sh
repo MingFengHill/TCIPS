@@ -1,0 +1,1 @@
+python generate_predictions_abc_primitive_vis.py
