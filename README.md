@@ -53,6 +53,7 @@ To add regional-purity labels to the raw ABCPrimitive dataset, run the script be
 ```
 python ./regional_purity/add_regional_purity_2_abc_primitive.py
 ```
+>  When processing the validation dataset, set the argument `is_del_small_ins` to 0.
 
 ## 🚀 Train
 You can run the training script in the foreground using:
