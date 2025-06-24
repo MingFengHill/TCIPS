@@ -51,27 +51,27 @@ Get the ABCPrimitive dataset with *regional purity* labels here → [Download AB
 **Generate labels yourself**  
 To add regional-purity labels to the raw ABCPrimitive dataset, run the script below:
 ```
-python ./regional_purity/add_regional_purify_2_dataset.py
+python ./regional_purity/add_regional_purity_2_abc_primitive.py
 ```
 
 ## 🚀 Train
 You can run the training script in the foreground using:
 ```
-./run_train_tcips.sh
+./run_train_tcips_abc_primitive.sh
 ```
 To run the script in the background and redirect the output to a log file (test.log), use:
 ```
-nohup ./run_train_tcips.sh > test.log 2>&1 &
+nohup ./run_train_tcips_abc_primitive.sh > test.log 2>&1 &
 ```
 
 ## ✔️ Test
 You can run the test script in the foreground using:
 ```
-./run_predictions.sh
+./run_predictions_abc_primitive.sh
 ```
 To run the script in the background and redirect the output to a log file (test.log), use:
 ```
-nohup ./run_predictions.sh > test.log 2>&1 &
+nohup ./run_predictions_abc_primitive.sh > test.log 2>&1 &
 ```
 
 ## 🙏 Acknowledgment
