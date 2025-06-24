@@ -14,7 +14,7 @@ The code will be uploaded once the paper is accepted for publication.
 </div>
 
 ## 🛠️ Preparation
-(1) Following [PTv3 guidelines](https://github.com/Pointcept/PointTransformerV3),  you need to first initialize a Conda environment and install the dependencies::
+(1) Following [PTv3 guidelines](https://github.com/Pointcept/PointTransformerV3),  you need to first initialize a Conda environment and install the dependencies:
 ```
 conda create -n pointcept python=3.8 -y
 conda activate pointcept
@@ -36,7 +36,7 @@ pip install open3d
 ```
 (2) Following [README](https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#installation-and-features) in Flash Attention repo and install Flash Attention.
 
-(3) Install the dependencies for TCIPS.
+(3) Install the dependencies for TCIPS:
 ```
 ./install.sh
 ```
